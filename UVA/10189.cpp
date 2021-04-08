@@ -1,7 +1,7 @@
+// 10189 Minesweeper
 #include <cstdio>
 #include <vector>
 using namespace std;
-
 
 struct {
 	int dx;
@@ -16,7 +16,7 @@ int main()
 	int n, m, count = 1;
 	while (scanf("%d %d\n", &n, &m), n || m)
 	{
-		vector<vector<int>> board(n, vector<int>(m)); // init to 0
+		vector<vector<int>> board(n, vector<int>(m));
 		char c;
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
