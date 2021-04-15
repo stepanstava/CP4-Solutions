@@ -6,7 +6,7 @@ int main()
 {
 	int round;
 	while (scanf("%d\n", &round), round != -1) {
-		bool solution[26] = {}, guessed[26] = {};
+		bool solution[26], guessed[26];
 		char c;
 		int chars = 0, correct = 0, mistakes = 0;
 		// counts unique chars in the solution

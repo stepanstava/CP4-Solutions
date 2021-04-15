@@ -22,7 +22,7 @@ int main()
 		}
 		else if (piece == 'Q') {
 			// one queen take one column and one row
-			res = min(m, n);;
+			res = min(m, n);
 		}
 		else {
 			// kings
